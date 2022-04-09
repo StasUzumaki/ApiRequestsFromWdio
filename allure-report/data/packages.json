@@ -1,0 +1,94 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "api request from wdio ",
+    "children" : [ {
+      "name" : "Delete all messages",
+      "uid" : "fea39ffdde8da86b",
+      "parentUid" : "47c0736492bd4b6bdda0578974c4ec12",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1649515697888,
+        "stop" : 1649515697888,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "check Email",
+      "uid" : "ccd426063fd12826",
+      "parentUid" : "47c0736492bd4b6bdda0578974c4ec12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649515768596,
+        "stop" : 1649515769300,
+        "duration" : 704
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "Me",
+      "uid" : "ab18145b6447ce4a",
+      "parentUid" : "47c0736492bd4b6bdda0578974c4ec12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649515769304,
+        "stop" : 1649515769605,
+        "duration" : 301
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "Validate up to 50 email addresses",
+      "uid" : "263dcccc398db43c",
+      "parentUid" : "47c0736492bd4b6bdda0578974c4ec12",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649515769607,
+        "stop" : 1649515770562,
+        "duration" : 955
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 1,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    }, {
+      "name" : "Delete all messages",
+      "uid" : "2a574af938feabbb",
+      "parentUid" : "47c0736492bd4b6bdda0578974c4ec12",
+      "status" : "broken",
+      "time" : {
+        "start" : 1649515770564,
+        "stop" : 1649515771182,
+        "duration" : 618
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "chrome-100.0.4896.75" ]
+    } ],
+    "uid" : "47c0736492bd4b6bdda0578974c4ec12"
+  } ]
+}
