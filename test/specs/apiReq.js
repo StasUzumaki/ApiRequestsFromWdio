@@ -1,13 +1,14 @@
 const HelperQA = require('../pageobjects/HelperQa.page')
 const axios = require('axios');
+require('dotenv').config();
 
 describe('api request from wdio ', () => {
-    it('check Email', async () => {
+    xit('check Email', async () => {
 
 
         const message = await HelperQA.checkMesages("snus@mailsac.com")
     });
-    it('Me', async () => {
+    xit('Me', async () => {
 
 
         const me = await HelperQA.me()
@@ -18,7 +19,7 @@ describe('api request from wdio ', () => {
         const reserved = await HelperQA.ReserveEmail()
     });
 
-    it('Delete all messages', async () => {
+    xit('Delete all messages', async () => {
 
 
         const snus = await HelperQA.DeleteMess("snus.msdc.co")

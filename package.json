@@ -1,14 +1,14 @@
 {
-  "scripts":{
+  "scripts": {
     "test": "npx wdio wdio.conf.js --spec apiReq.js",
     "test:headless": "npx wdio wdio.chrome.headless.conf.js",
     "allure:serve": "npx allure serve allure-results",
     "allure:generate": "npx allure generate allure-results --clean"
   },
-
   "dependencies": {
     "allure-commandline": "^2.17.2",
-    "axios": "^0.26.1"
+    "axios": "^0.26.1",
+    "dotenv": "^16.0.0"
   },
   "devDependencies": {
     "@wdio/allure-reporter": "^7.19.1",
@@ -19,5 +19,4 @@
     "chromedriver": "^100.0.0",
     "wdio-chromedriver-service": "^7.3.2"
   }
-
 }

@@ -7,7 +7,7 @@ class HelperQa {
             headers:
             {
                 "Host": "mailsac.com",
-                "Mailsac-Key": `k_aPZP9f6s4ouiHmEwDZQ2woBTfdkjmqCeXlQ2121`,
+                "Mailsac-Key": `${process.env.API_KEY}`,
             },
         });
     }
