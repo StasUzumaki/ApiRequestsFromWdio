@@ -1,59 +1,21 @@
 {
-  "dae89c70efe74087e311949c60e9c562" : {
+  "eb2ecb6b7a3657bbe2883ed9ab4638c8" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ccd426063fd12826",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649515768596,
-        "stop" : 1649515769300,
-        "duration" : 704
-      }
-    } ]
-  },
-  "c2abf268c53e6ca24067bd6cb511f90d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 0,
-      "skipped" : 0,
-      "passed" : 1,
-      "unknown" : 0,
-      "total" : 1
-    },
-    "items" : [ {
-      "uid" : "ab18145b6447ce4a",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649515769304,
-        "stop" : 1649515769605,
-        "duration" : 301
-      }
-    } ]
-  },
-  "b7c6a5ff7cf44ccce83f5640b71fd60d" : {
-    "statistic" : {
-      "failed" : 0,
-      "broken" : 1,
-      "skipped" : 0,
+      "skipped" : 1,
       "passed" : 0,
       "unknown" : 0,
       "total" : 1
     },
     "items" : [ {
-      "uid" : "2a574af938feabbb",
-      "status" : "broken",
-      "statusDetails" : "Request failed with status code 404",
+      "uid" : "bee37139eb93c92d",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1649515770564,
-        "stop" : 1649515771182,
-        "duration" : 618
+        "start" : 1649688918232,
+        "stop" : 1649688918232,
+        "duration" : 0
       }
     } ]
   },
@@ -67,12 +29,12 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "fea39ffdde8da86b",
+      "uid" : "ebbd055eb63842b5",
       "status" : "skipped",
       "statusDetails" : "Test ignored",
       "time" : {
-        "start" : 1649515697888,
-        "stop" : 1649515697888,
+        "start" : 1649688918635,
+        "stop" : 1649688918635,
         "duration" : 0
       }
     } ]
@@ -87,12 +49,32 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "263dcccc398db43c",
+      "uid" : "6a8f1da51cc0b0a4",
       "status" : "passed",
       "time" : {
-        "start" : 1649515769607,
-        "stop" : 1649515770562,
-        "duration" : 955
+        "start" : 1649688918232,
+        "stop" : 1649688918634,
+        "duration" : 402
+      }
+    } ]
+  },
+  "3d9cbd853950340c8a98df8d7482b01d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "630ba2d4895de759",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1649688918232,
+        "stop" : 1649688918232,
+        "duration" : 0
       }
     } ]
   }

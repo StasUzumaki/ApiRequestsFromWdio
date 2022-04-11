@@ -1,51 +1,41 @@
 [ {
-  "uid" : "2a574af938feabbb",
+  "uid" : "ebbd055eb63842b5",
   "name" : "Delete all messages",
   "time" : {
-    "start" : 1649515770564,
-    "stop" : 1649515771182,
-    "duration" : 618
-  },
-  "status" : "broken",
-  "severity" : "normal"
-}, {
-  "uid" : "fea39ffdde8da86b",
-  "name" : "Delete all messages",
-  "time" : {
-    "start" : 1649515697888,
-    "stop" : 1649515697888,
+    "start" : 1649688918635,
+    "stop" : 1649688918635,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "ab18145b6447ce4a",
-  "name" : "Me",
-  "time" : {
-    "start" : 1649515769304,
-    "stop" : 1649515769605,
-    "duration" : 301
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "ccd426063fd12826",
-  "name" : "check Email",
-  "time" : {
-    "start" : 1649515768596,
-    "stop" : 1649515769300,
-    "duration" : 704
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "263dcccc398db43c",
+  "uid" : "6a8f1da51cc0b0a4",
   "name" : "Validate up to 50 email addresses",
   "time" : {
-    "start" : 1649515769607,
-    "stop" : 1649515770562,
-    "duration" : 955
+    "start" : 1649688918232,
+    "stop" : 1649688918634,
+    "duration" : 402
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bee37139eb93c92d",
+  "name" : "check Email",
+  "time" : {
+    "start" : 1649688918232,
+    "stop" : 1649688918232,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "630ba2d4895de759",
+  "name" : "Me",
+  "time" : {
+    "start" : 1649688918232,
+    "stop" : 1649688918232,
+    "duration" : 0
+  },
+  "status" : "skipped",
   "severity" : "normal"
 } ]

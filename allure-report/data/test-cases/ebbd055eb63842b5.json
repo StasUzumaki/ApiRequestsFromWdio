@@ -1,11 +1,11 @@
 {
-  "uid" : "fea39ffdde8da86b",
+  "uid" : "ebbd055eb63842b5",
   "name" : "Delete all messages",
   "fullName" : "api request from wdio .Delete all messages",
   "historyId" : "e103e3efa19e388cf3e6e585c1f917ca",
   "time" : {
-    "start" : 1649515697888,
-    "stop" : 1649515697888,
+    "start" : 1649688918635,
+    "stop" : 1649688918635,
     "duration" : 0
   },
   "description" : "",
@@ -47,6 +47,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "fea39ffdde8da86b.json",
+  "source" : "ebbd055eb63842b5.json",
   "parameterValues" : [ ]
 }

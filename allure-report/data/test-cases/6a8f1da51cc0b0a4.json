@@ -1,12 +1,12 @@
 {
-  "uid" : "ccd426063fd12826",
-  "name" : "check Email",
-  "fullName" : "api request from wdio .check Email",
-  "historyId" : "dae89c70efe74087e311949c60e9c562",
+  "uid" : "6a8f1da51cc0b0a4",
+  "name" : "Validate up to 50 email addresses",
+  "fullName" : "api request from wdio .Validate up to 50 email addresses",
+  "historyId" : "7b16a104ee72c49383469dcc762746fd",
   "time" : {
-    "start" : 1649515768596,
-    "stop" : 1649515769300,
-    "duration" : 704
+    "start" : 1649688918232,
+    "stop" : 1649688918634,
+    "duration" : 402
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 0,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -36,7 +36,7 @@
     "value" : "api request from wdio "
   }, {
     "name" : "testMethod",
-    "value" : "check Email"
+    "value" : "Validate up to 50 email addresses"
   }, {
     "name" : "package",
     "value" : "api request from wdio "
@@ -53,18 +53,10 @@
   "retry" : false,
   "extra" : {
     "severity" : "normal",
-    "retries" : [ {
-      "uid" : "11c4dd203f9f43b5",
-      "status" : "passed",
-      "time" : {
-        "start" : 1649515696797,
-        "stop" : 1649515697295,
-        "duration" : 498
-      }
-    } ],
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ccd426063fd12826.json",
+  "source" : "6a8f1da51cc0b0a4.json",
   "parameterValues" : [ "chrome-100.0.4896.75" ]
 }
