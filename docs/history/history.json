@@ -1,0 +1,99 @@
+{
+  "dae89c70efe74087e311949c60e9c562" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ccd426063fd12826",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649515768596,
+        "stop" : 1649515769300,
+        "duration" : 704
+      }
+    } ]
+  },
+  "c2abf268c53e6ca24067bd6cb511f90d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab18145b6447ce4a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649515769304,
+        "stop" : 1649515769605,
+        "duration" : 301
+      }
+    } ]
+  },
+  "b7c6a5ff7cf44ccce83f5640b71fd60d" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2a574af938feabbb",
+      "status" : "broken",
+      "statusDetails" : "Request failed with status code 404",
+      "time" : {
+        "start" : 1649515770564,
+        "stop" : 1649515771182,
+        "duration" : 618
+      }
+    } ]
+  },
+  "e103e3efa19e388cf3e6e585c1f917ca" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 1,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fea39ffdde8da86b",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1649515697888,
+        "stop" : 1649515697888,
+        "duration" : 0
+      }
+    } ]
+  },
+  "7b16a104ee72c49383469dcc762746fd" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "263dcccc398db43c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649515769607,
+        "stop" : 1649515770562,
+        "duration" : 955
+      }
+    } ]
+  }
+}

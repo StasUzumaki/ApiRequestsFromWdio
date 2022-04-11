@@ -1,0 +1,53 @@
+name: Main Github Actions
+on:
+  push:
+    branches:
+      - 'main' # Set branch of the GH repo to push
+jobs:
+  test_suite: api req from wdio
+      runs-on: windows-latest
+      steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
+        with:
+          node-version: '16.14.2' # In command line run “node -v” and choose your version
+      - run: npm ci
+#      - run: npm config set script-shell "C:\Program Files\Git\bin\bash.exe"
+      - name: run test
+        run: npm run test:headless # Our name of the headless script
+      - name: Copy History
+        if: always()
+        run: cp -r $(pwd)/docs/history/. $(pwd)/allure-results/history
+      - name: Generate Report
+        if: always()
+        run: npm run allure:generate # Name of the allure generate script
+      - name: Upload Results
+        uses: actions/upload-artifact@v1
+        if: always()
+        with:
+          name: allure-results
+          path: ./allure-results # Name of the folder with allure results                    
+      - name: Publishing Allure artifact to Github Actions
+        uses: actions/upload-artifact@v2
+        if: always()
+        with:
+          name: allure-report
+          path: allure-report        
+      - name: Deploy report
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        if: always()
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: allure-report # The folder the action should deploy.
+          target-folder: docs
+      - name: Pushes docs to another repository
+        uses: cpina/github-action-push-to-another-repository@v1.3
+        if: always()
+        env:
+          API_TOKEN_GITHUB: ${{process.env.GH_token}} # Instruction where to get token is below
+        with:
+          source-directory: 'docs'
+          destination-github-username: 'StasUzumaki' # Your username
+          destination-repository-name: 'ApiRequestsFromWdio' # Name of your repo
+          user-email: stasl77775@gmail.com # Your email
+          target-branch: main
