@@ -1,11 +1,11 @@
 {
-  "uid" : "e00386daac89914e",
-  "name" : "Delete all messages",
-  "fullName" : "api request from wdio .Delete all messages",
-  "historyId" : "e103e3efa19e388cf3e6e585c1f917ca",
+  "uid" : "b5c9f9546a72035",
+  "name" : "check Email",
+  "fullName" : "api request from wdio .check Email",
+  "historyId" : "eb2ecb6b7a3657bbe2883ed9ab4638c8",
   "time" : {
-    "start" : 1649522645734,
-    "stop" : 1649522645734,
+    "start" : 1649688165559,
+    "stop" : 1649688165559,
     "duration" : 0
   },
   "description" : "",
@@ -29,7 +29,7 @@
     "value" : "api request from wdio "
   }, {
     "name" : "testMethod",
-    "value" : "Delete all messages"
+    "value" : "check Email"
   }, {
     "name" : "package",
     "value" : "api request from wdio "
@@ -39,12 +39,14 @@
   } ],
   "parameters" : [ ],
   "links" : [ ],
-  "hidden" : true,
-  "retry" : true,
+  "hidden" : false,
+  "retry" : false,
   "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "e00386daac89914e.json",
+  "source" : "b5c9f9546a72035.json",
   "parameterValues" : [ ]
 }

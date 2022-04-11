@@ -2,8 +2,8 @@
   "scripts": {
     "test": "npx wdio wdio.conf.js --spec apiReq.js",
     "test:headless": "npx wdio wdio.chrome.headless.conf.js",
-    "allure:serve": "npx allure serve allure-results",
-    "allure:generate": "npx allure generate allure-results --clean"
+    "allure:generate": "npx allure generate allure-results --clean",
+    "allure:serve": "npx allure serve allure-results"
   },
   "dependencies": {
     "allure-commandline": "^2.17.2",

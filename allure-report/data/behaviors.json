@@ -3,121 +3,70 @@
   "name" : "behaviors",
   "children" : [ {
     "name" : "check Email",
-    "uid" : "9400a7e507fb63a5",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1649520845591,
-      "stop" : 1649520845947,
-      "duration" : 356
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-100.0.4896.75" ]
-  }, {
-    "name" : "Me",
-    "uid" : "99e85b7674324fa8",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1649520845951,
-      "stop" : 1649520846568,
-      "duration" : 617
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 3,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-100.0.4896.75" ]
-  }, {
-    "name" : "Delete all messages",
-    "uid" : "ae4ae3ae9dce0d0d",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "broken",
-    "time" : {
-      "start" : 1649520847162,
-      "stop" : 1649520847447,
-      "duration" : 285
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "newPassed" : false,
-    "newBroken" : false,
-    "retriesCount" : 2,
-    "retriesStatusChange" : false,
-    "parameters" : [ "chrome-100.0.4896.75" ]
-  }, {
-    "name" : "Me",
-    "uid" : "24f1bffecb1fa382",
+    "uid" : "b5c9f9546a72035",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1649681880813,
-      "stop" : 1649681880813,
+      "start" : 1649688165559,
+      "stop" : 1649688165559,
       "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 3,
+    "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
-    "name" : "check Email",
-    "uid" : "626a530f6918776a",
+    "name" : "Me",
+    "uid" : "1ffcb0d4935a7590",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1649681880813,
-      "stop" : 1649681880813,
+      "start" : 1649688165560,
+      "stop" : 1649688165560,
       "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 3,
+    "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   }, {
     "name" : "Validate up to 50 email addresses",
-    "uid" : "8f2991135fb3cee",
+    "uid" : "95ec8c6ae121ce3a",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1649681880813,
-      "stop" : 1649681881238,
-      "duration" : 425
+      "start" : 1649688165560,
+      "stop" : 1649688165957,
+      "duration" : 397
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 7,
-    "retriesStatusChange" : true,
+    "retriesCount" : 0,
+    "retriesStatusChange" : false,
     "parameters" : [ "chrome-100.0.4896.75" ]
   }, {
     "name" : "Delete all messages",
-    "uid" : "7130a5c6d23131be",
+    "uid" : "8fcabf45b68360ff",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "skipped",
     "time" : {
-      "start" : 1649681881239,
-      "stop" : 1649681881239,
+      "start" : 1649688165960,
+      "stop" : 1649688165960,
       "duration" : 0
     },
     "flaky" : false,
     "newFailed" : false,
     "newPassed" : false,
     "newBroken" : false,
-    "retriesCount" : 4,
+    "retriesCount" : 0,
     "retriesStatusChange" : false,
     "parameters" : [ ]
   } ]
