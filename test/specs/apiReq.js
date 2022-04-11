@@ -17,6 +17,7 @@ describe('api request from wdio ', () => {
 
 
         const reserved = await HelperQA.ReserveEmail()
+        allureReporter.addFeature('Feature')
     });
 
     xit('Delete all messages', async () => {
