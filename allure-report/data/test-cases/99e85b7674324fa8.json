@@ -1,12 +1,12 @@
 {
-  "uid" : "ab18145b6447ce4a",
+  "uid" : "99e85b7674324fa8",
   "name" : "Me",
   "fullName" : "api request from wdio .Me",
   "historyId" : "c2abf268c53e6ca24067bd6cb511f90d",
   "time" : {
-    "start" : 1649515769304,
-    "stop" : 1649515769605,
-    "duration" : 301
+    "start" : 1649520845951,
+    "stop" : 1649520846568,
+    "duration" : 617
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -15,7 +15,7 @@
   "newFailed" : false,
   "newBroken" : false,
   "newPassed" : false,
-  "retriesCount" : 1,
+  "retriesCount" : 3,
   "retriesStatusChange" : false,
   "beforeStages" : [ ],
   "afterStages" : [ ],
@@ -54,7 +54,23 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ {
-      "uid" : "aceee32b94030c04",
+      "uid" : "2c41fa174a321f33",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649520599536,
+        "stop" : 1649520599815,
+        "duration" : 279
+      }
+    }, {
+      "uid" : "98189ee00b1219ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1649515769304,
+        "stop" : 1649515769605,
+        "duration" : 301
+      }
+    }, {
+      "uid" : "81a363516a9cf22f",
       "status" : "passed",
       "time" : {
         "start" : 1649515697299,
@@ -65,6 +81,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "ab18145b6447ce4a.json",
+  "source" : "99e85b7674324fa8.json",
   "parameterValues" : [ "chrome-100.0.4896.75" ]
 }

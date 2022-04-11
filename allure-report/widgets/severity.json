@@ -1,51 +1,71 @@
 [ {
-  "uid" : "2a574af938feabbb",
+  "uid" : "ae4ae3ae9dce0d0d",
   "name" : "Delete all messages",
   "time" : {
-    "start" : 1649515770564,
-    "stop" : 1649515771182,
-    "duration" : 618
+    "start" : 1649520847162,
+    "stop" : 1649520847447,
+    "duration" : 285
   },
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "fea39ffdde8da86b",
-  "name" : "Delete all messages",
+  "uid" : "626a530f6918776a",
+  "name" : "check Email",
   "time" : {
-    "start" : 1649515697888,
-    "stop" : 1649515697888,
+    "start" : 1649681880813,
+    "stop" : 1649681880813,
     "duration" : 0
   },
   "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "ab18145b6447ce4a",
+  "uid" : "7130a5c6d23131be",
+  "name" : "Delete all messages",
+  "time" : {
+    "start" : 1649681881239,
+    "stop" : 1649681881239,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "99e85b7674324fa8",
   "name" : "Me",
   "time" : {
-    "start" : 1649515769304,
-    "stop" : 1649515769605,
-    "duration" : 301
+    "start" : 1649520845951,
+    "stop" : 1649520846568,
+    "duration" : 617
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "ccd426063fd12826",
-  "name" : "check Email",
-  "time" : {
-    "start" : 1649515768596,
-    "stop" : 1649515769300,
-    "duration" : 704
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "263dcccc398db43c",
+  "uid" : "8f2991135fb3cee",
   "name" : "Validate up to 50 email addresses",
   "time" : {
-    "start" : 1649515769607,
-    "stop" : 1649515770562,
-    "duration" : 955
+    "start" : 1649681880813,
+    "stop" : 1649681881238,
+    "duration" : 425
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9400a7e507fb63a5",
+  "name" : "check Email",
+  "time" : {
+    "start" : 1649520845591,
+    "stop" : 1649520845947,
+    "duration" : 356
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "24f1bffecb1fa382",
+  "name" : "Me",
+  "time" : {
+    "start" : 1649681880813,
+    "stop" : 1649681880813,
+    "duration" : 0
+  },
+  "status" : "skipped",
   "severity" : "normal"
 } ]

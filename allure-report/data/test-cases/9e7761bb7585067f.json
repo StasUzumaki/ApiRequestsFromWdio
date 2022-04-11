@@ -1,0 +1,50 @@
+{
+  "uid" : "9e7761bb7585067f",
+  "name" : "Me",
+  "fullName" : "api request from wdio .Me",
+  "historyId" : "3d9cbd853950340c8a98df8d7482b01d",
+  "time" : {
+    "start" : 1649522815731,
+    "stop" : 1649522815731,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "api request from wdio "
+  }, {
+    "name" : "testClass",
+    "value" : "api request from wdio "
+  }, {
+    "name" : "testMethod",
+    "value" : "Me"
+  }, {
+    "name" : "package",
+    "value" : "api request from wdio "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9e7761bb7585067f.json",
+  "parameterValues" : [ ]
+}

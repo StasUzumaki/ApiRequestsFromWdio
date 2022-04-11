@@ -1,0 +1,88 @@
+{
+  "uid" : "7130a5c6d23131be",
+  "name" : "Delete all messages",
+  "fullName" : "api request from wdio .Delete all messages",
+  "historyId" : "e103e3efa19e388cf3e6e585c1f917ca",
+  "time" : {
+    "start" : 1649681881239,
+    "stop" : 1649681881239,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 4,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "api request from wdio "
+  }, {
+    "name" : "testClass",
+    "value" : "api request from wdio "
+  }, {
+    "name" : "testMethod",
+    "value" : "Delete all messages"
+  }, {
+    "name" : "package",
+    "value" : "api request from wdio "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e7bda8bf854b221e",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1649522837465,
+        "stop" : 1649522837465,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "809b78b0907914ef",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1649522816029,
+        "stop" : 1649522816029,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "e00386daac89914e",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1649522645734,
+        "stop" : 1649522645734,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "d49ada6b0ac887eb",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1649515697888,
+        "stop" : 1649515697888,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7130a5c6d23131be.json",
+  "parameterValues" : [ ]
+}

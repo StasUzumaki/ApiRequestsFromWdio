@@ -1,0 +1,50 @@
+{
+  "uid" : "e14951c948878535",
+  "name" : "check Email",
+  "fullName" : "api request from wdio .check Email",
+  "historyId" : "eb2ecb6b7a3657bbe2883ed9ab4638c8",
+  "time" : {
+    "start" : 1649522836836,
+    "stop" : 1649522836836,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "api request from wdio "
+  }, {
+    "name" : "testClass",
+    "value" : "api request from wdio "
+  }, {
+    "name" : "testMethod",
+    "value" : "check Email"
+  }, {
+    "name" : "package",
+    "value" : "api request from wdio "
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e14951c948878535.json",
+  "parameterValues" : [ ]
+}

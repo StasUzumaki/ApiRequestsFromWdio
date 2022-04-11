@@ -7,19 +7,19 @@
       "name" : "Request failed with status code 404",
       "children" : [ {
         "name" : "Delete all messages",
-        "uid" : "2a574af938feabbb",
+        "uid" : "ae4ae3ae9dce0d0d",
         "parentUid" : "e535f801f4238f93df2991342f7e48e9",
         "status" : "broken",
         "time" : {
-          "start" : 1649515770564,
-          "stop" : 1649515771182,
-          "duration" : 618
+          "start" : 1649520847162,
+          "stop" : 1649520847447,
+          "duration" : 285
         },
         "flaky" : false,
         "newFailed" : false,
         "newPassed" : false,
         "newBroken" : false,
-        "retriesCount" : 0,
+        "retriesCount" : 2,
         "retriesStatusChange" : false,
         "parameters" : [ "chrome-100.0.4896.75" ]
       } ],

@@ -1,12 +1,12 @@
 {
-  "uid" : "dd160bcee631e211",
+  "uid" : "4d2930a1baf5186d",
   "name" : "Validate up to 50 email addresses",
   "fullName" : "api request from wdio .Validate up to 50 email addresses",
   "historyId" : "7b16a104ee72c49383469dcc762746fd",
   "time" : {
-    "start" : 1649515697588,
-    "stop" : 1649515697885,
-    "duration" : 297
+    "start" : 1649522836837,
+    "stop" : 1649522837463,
+    "duration" : 626
   },
   "description" : "",
   "descriptionHtml" : "",
@@ -55,6 +55,6 @@
     "categories" : [ ],
     "tags" : [ ]
   },
-  "source" : "dd160bcee631e211.json",
+  "source" : "4d2930a1baf5186d.json",
   "parameterValues" : [ "chrome-100.0.4896.75" ]
 }
